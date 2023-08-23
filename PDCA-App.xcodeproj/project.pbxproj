@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F7DB4CA2A9616A60000C920 /* PDCA_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7DB4C92A9616A60000C920 /* PDCA_AppApp.swift */; };
+		9F7DB4CA2A9616A60000C920 /* PDCA_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7DB4C92A9616A60000C920 /* PDCA_App.swift */; };
 		9F7DB4CC2A9616A60000C920 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7DB4CB2A9616A60000C920 /* ContentView.swift */; };
 		9F7DB4CE2A9616A70000C920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7DB4CD2A9616A70000C920 /* Assets.xcassets */; };
 		9F7DB4D12A9616A70000C920 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7DB4D02A9616A70000C920 /* Preview Assets.xcassets */; };
@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		9F7DB4C62A9616A60000C920 /* PDCA-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PDCA-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F7DB4C92A9616A60000C920 /* PDCA_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDCA_AppApp.swift; sourceTree = "<group>"; };
+		9F7DB4C92A9616A60000C920 /* PDCA_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDCA_App.swift; sourceTree = "<group>"; };
 		9F7DB4CB2A9616A60000C920 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9F7DB4CD2A9616A70000C920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F7DB4D02A9616A70000C920 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		9F7DB4C82A9616A60000C920 /* PDCA-App */ = {
 			isa = PBXGroup;
 			children = (
-				9F7DB4C92A9616A60000C920 /* PDCA_AppApp.swift */,
+				9F7DB4C92A9616A60000C920 /* PDCA_App.swift */,
 				9F7DB4CB2A9616A60000C920 /* ContentView.swift */,
 				9F7DB4CD2A9616A70000C920 /* Assets.xcassets */,
 				9F7DB4CF2A9616A70000C920 /* Preview Content */,
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F7DB4CC2A9616A60000C920 /* ContentView.swift in Sources */,
-				9F7DB4CA2A9616A60000C920 /* PDCA_AppApp.swift in Sources */,
+				9F7DB4CA2A9616A60000C920 /* PDCA_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
