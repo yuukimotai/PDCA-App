@@ -10,10 +10,30 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("今日、何した？")
-            Text("何ができなかった？")
-            Text("何ができたらよかった？")
-            Text("いつまでにやる？")
+            Button {
+                
+            } label: {
+                Text("今日、何した？")
+            }
+            .buttonStyle(.borderedProminent)
+            Button {
+                
+            } label: {
+                Text("何ができなかった？")
+            }
+            .buttonStyle(.borderedProminent)
+            Button {
+                
+            } label: {
+                Text("何ができたらよかった？")
+            }
+            .buttonStyle(.borderedProminent)
+            Button {
+                
+            } label: {
+                Text("いつまでにやる？")
+            }
+            .buttonStyle(.borderedProminent)
         }
         .padding()
     }
