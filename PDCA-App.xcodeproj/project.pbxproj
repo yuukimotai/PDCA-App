@@ -11,6 +11,8 @@
 		9F7DB4CC2A9616A60000C920 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7DB4CB2A9616A60000C920 /* ContentView.swift */; };
 		9F7DB4CE2A9616A70000C920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7DB4CD2A9616A70000C920 /* Assets.xcassets */; };
 		9F7DB4D12A9616A70000C920 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7DB4D02A9616A70000C920 /* Preview Assets.xcassets */; };
+		9F7DB4D92A9CB84E0000C920 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 9F7DB4D82A9CB84E0000C920 /* ComposableArchitecture */; };
+		9F7DB4DB2A9CB95E0000C920 /* CounterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7DB4DA2A9CB95E0000C920 /* CounterReducer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,7 @@
 		9F7DB4CB2A9616A60000C920 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9F7DB4CD2A9616A70000C920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F7DB4D02A9616A70000C920 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F7DB4DA2A9CB95E0000C920 /* CounterReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterReducer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F7DB4D92A9CB84E0000C920 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +59,7 @@
 				9F7DB4CB2A9616A60000C920 /* ContentView.swift */,
 				9F7DB4CD2A9616A70000C920 /* Assets.xcassets */,
 				9F7DB4CF2A9616A70000C920 /* Preview Content */,
+				9F7DB4DA2A9CB95E0000C920 /* CounterReducer.swift */,
 			);
 			path = "PDCA-App";
 			sourceTree = "<group>";
@@ -83,6 +88,9 @@
 			dependencies = (
 			);
 			name = "PDCA-App";
+			packageProductDependencies = (
+				9F7DB4D82A9CB84E0000C920 /* ComposableArchitecture */,
+			);
 			productName = "PDCA-App";
 			productReference = 9F7DB4C62A9616A60000C920 /* PDCA-App.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +119,9 @@
 				Base,
 			);
 			mainGroup = 9F7DB4BD2A9616A60000C920;
+			packageReferences = (
+				9F7DB4D72A9CB84E0000C920 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 9F7DB4C72A9616A60000C920 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F7DB4CC2A9616A60000C920 /* ContentView.swift in Sources */,
+				9F7DB4DB2A9CB95E0000C920 /* CounterReducer.swift in Sources */,
 				9F7DB4CA2A9616A60000C920 /* PDCA_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +351,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F7DB4D72A9CB84E0000C920 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F7DB4D82A9CB84E0000C920 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F7DB4D72A9CB84E0000C920 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9F7DB4BE2A9616A60000C920 /* Project object */;
 }
